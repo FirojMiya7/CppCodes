@@ -45,6 +45,8 @@ public:
 
     void show()
     {
+        cout << "Employee Details:" << endl;
+        cout << "------------------" << endl;
         cout << "name:" << n << endl;
         cout << "age:" << a << endl;
         cout << "department:" << dn << endl;
