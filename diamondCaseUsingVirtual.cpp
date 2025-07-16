@@ -33,7 +33,7 @@ class Third : virtual public First{
     int c;
     public:
     void getT(){
-        cout<<"Enter any number1 : ";
+        cout<<"Enter any number3 : ";
         cin>>c;
     }
     void showT(){
@@ -49,7 +49,7 @@ class Fourth : virtual public First, virtual public Second, virtual public Third
         getF();
         getS();
         getT();
-        cout<<"Enter any number1 : ";
+        cout<<"Enter any number4 : ";
         cin>>d;
     }
     void showFF(){
