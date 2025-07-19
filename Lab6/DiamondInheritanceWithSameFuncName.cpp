@@ -76,9 +76,10 @@ class average : public second , public third , public fourth{            //no ne
 };
 
 int main(){
-    average avg;
-    avg.getData();
-    avg.showData();
+    average obj;
+
+    obj.getData();
+    obj.showData();
                                                                         
     return 0;
 }
