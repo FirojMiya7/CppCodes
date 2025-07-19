@@ -53,7 +53,7 @@ class fourth : virtual public first{
     }
 };
 
-class average : public second , public third , public fourth{
+class average : public second , public third , public fourth{            //no need to make public classes virtual (i.e. virtual public second,so on) because may lead to unwanted results...
     public:
     void getData(){
         first::getData();
